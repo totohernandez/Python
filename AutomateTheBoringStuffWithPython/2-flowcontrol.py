@@ -80,7 +80,7 @@ while True:
         break
 print('Acess granted.')
 
-for Loop
+#for Loop
 print('My name is')
 for i in range(5):
     print('Jimy five times (' + str(i) + ')')
