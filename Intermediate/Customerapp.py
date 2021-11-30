@@ -16,9 +16,10 @@ class Customer:
             print(customer)
 
     def __eq__(self, other):
-        if self.name == other.name and self.subscription == other.subscription
+        if self.name == other.name and self.subscription == other.subscription:
             return True
-        return False
+        else:
+            return False
 
     # def read_customer():
     #     print("Reading from DB")
