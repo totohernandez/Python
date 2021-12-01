@@ -89,3 +89,37 @@ print(spam)
 spam = 42 
 spam += 1
 print(spam)
+
+
+# Metods 
+
+spam = ['hello', 'hi', 'howdy', 'heyas']
+spam.index('hello')
+print(spam)
+
+spam.append('moose')
+print(spam)
+
+spam.insert(1, 'chicken')
+print(spam)
+
+spam.remove('chicken')
+print(spam)
+
+spam = [2, 5, 3.14, 1, -7]
+spam.sort()
+print(spam)
+
+spam = ['ants', 'cats', 'dogs', 'badgers', 'elephans']
+spam.sort()
+print(spam)
+
+spam.sort(reverse=True)
+print(spam)
+
+spam = ['A', 'B', 'a', 'b']
+spam.sort()
+print(spam)
+spam.sort(key=str.lower)
+print(spam)
+
